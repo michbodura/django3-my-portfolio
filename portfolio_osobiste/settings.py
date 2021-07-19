@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-nxry-u(x+bf1fc&knn)a1p4mi%0tsw+rywaof0tg0q#%3ygu3b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['michbodura.pythonanywhere.com']
+ALLOWED_HOSTS = ['www.michbodura.info']
 
 
 # Application definition
