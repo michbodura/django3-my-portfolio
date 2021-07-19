@@ -133,3 +133,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = Path.joinpath(BASE_DIR,'media')
 
+try:
+    from .local_settings import *
+except ImportError:
+    print("To nie jest plik lokalny. Musisz być w fazie produkcji")
+
